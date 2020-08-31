@@ -1,0 +1,53 @@
+/**
+@Author: yu_Wj
+@Description：header样式文件
+*/
+
+.menuNav{
+	width: 1180px;
+	height: 75px;
+	margin: 23px auto 31px;
+	position: relative;
+}
+.nav{
+	width:820px;
+	position: absolute;
+	top: 0;
+	left: 360px;
+}
+.nav li{
+	float: left;
+	padding: 18px 17px 15px;
+	position: relative;
+}
+.nav li a,.nav li a i,.nav li a em{
+	display: block;
+	font-style: normal;
+	text-align: center;
+}
+.nav li a i{
+	font-family: arial;
+	font-size: 12px;
+}
+.nav li a em{
+	padding: 10px 0;
+	font-size: 16px;
+	border-bottom: solid 1px #fff;
+}
+.normal a em, .normal_nav a em{
+	border-bottom: solid 1px #302e3c !important;
+}
+.nav li nav{
+	display: none;
+	background: #FEA0C2;
+	padding: 10px 0;
+	width: 100%;
+	z-index: 99;
+	position: absolute;
+	top: 75px;
+	left: 0px;
+}
+.nav li nav a{
+	line-height: 2;
+	color: #fff;
+}
